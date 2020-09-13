@@ -1,0 +1,412 @@
+
+
+h5{
+  display: inline;
+}
+
+.logo{
+  background-color: white;
+}
+.navi{
+font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  margin-top: 0;
+  background-color: white;
+  padding-top: 1.5em;
+padding-left: 5rem;
+padding-right: 5rem;
+}
+
+.cart {
+  margin: 0 10px;
+
+padding-left:1rem;
+}
+.g-padd{
+position: relative;
+left: 50%;
+  padding-right: 2rem;
+}
+
+.cart:hover{
+  color: #848ccf;
+}
+
+input.form-control{
+  width: 300px;
+}
+.g-carousel{
+  padding-top: 0rem;
+}
+
+/* media queary */
+@media(max-width: 1000px) {
+  input.form-control{
+    width: 100px;
+  }
+  .g-textButton{
+    display: none;
+  }
+  .icon{
+    size: 40px;
+    width:70px;
+    height:40px;
+  }
+
+}
+.g-mainImage{
+  padding: 1rem 0 0 0 ;
+
+  width: 100%;
+  height: 50%;
+
+}
+.carousel-item {
+  padding: 2% 4%;
+}
+
+
+/* celebration */
+
+#celebration{
+  background-color: white;
+  color: black;
+  text-align:center;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+
+
+
+}
+
+
+
+
+/* .g-celeb{
+height: 12rem;
+width: 8rem;
+margin: 3rem;
+position: relative;
+bottom: 10px;
+left: -100px;
+} */
+.alcohol{
+  transition: 2s;
+animation-name: alcoholsImage;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+position: relative;
+/* display: inline; */
+height: 13rem;
+width: 8rem;
+margin: 3rem 0;
+left: 25rem;
+}
+@keyframes alcoholsImage {
+  0%{left: 25rem;}
+
+ 100%{left: 2rem;}
+}
+
+h4{
+  text-align: center;
+
+}
+.btn{
+  text-align: center;
+}
+/* best sellers */
+
+.logos{
+  z-index: 5;
+
+  position: absolute;
+left: 10rem;
+width: 13rem;
+opacity: 0.5;
+right: 29rem;
+top: 9rem;
+/* display: inline; */
+
+
+  animation-name: moveLogo;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  transition: 2s;
+}
+  @keyframes moveLogo {
+  0%{width: 13rem; right: 29rem;}
+
+
+  100%{width: 8rem;opacity: 0.3;right: 25rem;}
+
+
+   }
+
+
+   .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 66px;
+    padding-left: 66px;
+    padding-bottom: 5rem;
+}
+
+#bestSeller{
+
+  font-family: 'Playfair Display', serif;
+
+font-weight: bold;
+text-align: center;
+padding-top: 10rem;
+padding-bottom: 3rem;
+}
+.Best-sell{
+  margin-top: 5rem;
+}
+
+#features{
+  font-family: "Montserrat";
+  text-align: center;
+
+  position: relative;
+
+
+}
+.feature{
+  padding: 3rem 3rem;
+}
+.redd{
+  color: #66bfbf;
+}
+
+
+
+#testimonials{
+
+}
+
+
+.Foot{
+  background-color: #333f44;
+  color: white;
+  text-align: center;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.responsible{
+margin-bottom:  2rem;
+
+}
+.footIcon{
+  margin: 1rem;
+  color: grey;
+}
+.hov:hover{
+  color: darkblue;
+}
+.hov1:hover{
+  color: red;
+}
+.hov2:hover{
+  color: skyblue;
+}
+.hov3:hover{
+  color: purple;
+}
+.privo{
+  margin: 1rem;
+}
+
+
+
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.login-button {
+  padding: 14px 20px;
+  margin: 1rem 0 2rem;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  /* background-color: #f44336; */
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 30%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 36%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+/* categories */
+
+
+.ruslan{
+  border-right: solid #1b1c25 25px;
+  transform: rotate(20deg);
+  z-index: -1;
+  position: relative;
+  left:  10rem;
+  padding-top: 101px;
+  bottom: 4rem;
+  float: left;
+
+}
+.g-promo{
+  text-align: center;
+ display: relative;
+ padding-left: 30rem;
+ right: 15%;
+ color: #3b2e5a;
+padding-top: 3rem;
+}
+
+.g-promo1{
+  text-align: center;
+ display: relative;
+ padding-left: 30rem;
+ right: 15%;
+ color: #3b2e5a;
+padding-top: 1rem;
+}
+.emphasis{
+  height:340px;background-color:#ebecf1; z-index: -4;position: relative;
+}
+.g-whiskeyitem{
+  background-color: #197163;
+  padding: 0.5rem 0 0.25rem 0;
+  height: 60px;
+
+}
+
+.g-anchorwhiskey:link{
+  color:#065446;
+}
+
+.g-anchorwhiskey:visited{
+  color: #065446;
+}
+.g-anchorwhiskey:hover{
+  color:#e9e4dd;
+}
+.g-chivas{
+
+  font-weight: bold;
+}
+.carousel-item{
+  padding: 0;
+}
+.ram{
+  padding: 0;
+}

@@ -1,0 +1,69 @@
+
+h5{
+  display: inline;
+}
+
+
+.navi{
+font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  border-top: 5rem solid white;
+  background-color: white;
+
+}
+
+.cart {
+  margin: 0 10px;
+
+padding-left:1rem;
+}
+.g-padd{
+  padding-right: 2rem;
+}
+
+.cart:hover{
+  color: #848ccf;
+}
+
+input.form-control{
+  width: 300px;
+}
+.g-carousel{
+  padding-top: 10rem;
+}
+
+/* media queary */
+@media(max-width: 1000px) {
+  input.form-control{
+    width: 100px;
+  }
+  .g-textButton{
+    display: none;
+  }
+  .icon{
+    size: 40px;
+    width:70px;
+    height:40px;
+  }
+}
+.g-mainImage{
+  padding: 1rem 0 0 0 ;
+
+  width: 100%;
+  height: 50%;
+
+}
+.carousel-item {
+  padding: 2% 4%;
+}
+
+
+/* celebration */
+
+#celebration{
+  background-color: black;
+  color: white;
+  text-align:center;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
